@@ -1,4 +1,4 @@
-rom selenium import webdriver
+from selenium import webdriver
 import time
 import re
 import urllib2
