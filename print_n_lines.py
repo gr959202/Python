@@ -1,5 +1,18 @@
 ##PROGRAM TO PRINT N LINES FOLLOWING A PATTERN MATCH
 
+import codecs
+import csv
+import re
+import sys
+import os
+import glob
+import gzip
+import json
+import string
+import numpy as np
+from sqlalchemy import Table, Column, Float, Integer, String, MetaData, ForeignKey
+import optparse
+
 def print_next_n_lines(infile,string,number):
     i = 0
     canprint = False
